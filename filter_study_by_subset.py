@@ -3,6 +3,10 @@ import sys
 import optparse
 import csv
 
+# some file descriptors
+ERROR_FILE = sys.stderr
+OUTPUT_FILE = sys.stdout
+
 PATIENT_ID_LIST = []
 SAMPLE_SUBSET_LIST = []
 
